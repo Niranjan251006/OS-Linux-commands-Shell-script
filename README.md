@@ -42,23 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![Screenshot from 2025-03-10 18-31-31](https://github.com/user-attachments/assets/245a539a-cdd3-447e-931f-14d16637f12f)
 
 
 
 cat < file2
 ## OUTPUT
+![Screenshot from 2025-03-10 18-32-03](https://github.com/user-attachments/assets/2b2e889d-2ff8-4f7d-9086-0f3774851e0d)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![Screenshot from 2025-03-10 18-32-52](https://github.com/user-attachments/assets/3ecc4a84-a1eb-4d0a-91ae-472592e0f8a3)
+
 comm file1 file2
  ## OUTPUT
 
- 
+ ![Screenshot from 2025-03-10 18-33-50](https://github.com/user-attachments/assets/c25dfa52-e780-41cf-b252-5340bbbe7f25)
+
 diff file1 file2
 ## OUTPUT
+![Screenshot from 2025-03-10 18-34-21](https://github.com/user-attachments/assets/32e6211e-6291-4809-965c-5719db6b4254)
 
 
 #Filters
@@ -83,17 +88,20 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![Screenshot from 2025-03-10 18-39-10](https://github.com/user-attachments/assets/0d15bf56-ed02-4e6c-a83e-69ec8920c248)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![Screenshot from 2025-03-10 18-40-29](https://github.com/user-attachments/assets/bbda8e3f-87ac-41a7-9fe2-9fe671495276)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+![Screenshot from 2025-03-10 18-40-45](https://github.com/user-attachments/assets/150f7065-92d0-43bc-8acd-1cc7bd0e2e77)
 
 cat < newfile 
 ```
@@ -107,22 +115,27 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-10 18-44-09](https://github.com/user-attachments/assets/9e51ed4e-a09a-42fd-b145-3060f6afc272)
+
 
 
 
 grep hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-10 18-44-09](https://github.com/user-attachments/assets/337fff1c-63a1-48c0-b240-106fbfc33183)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-10 18-45-16](https://github.com/user-attachments/assets/72a3634d-ff1f-48c7-ac3b-7110b675e761)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![Screenshot from 2025-03-10 18-46-40](https://github.com/user-attachments/assets/30cab330-5879-4265-ab73-8dba439d66a9)
 
 
 
@@ -130,6 +143,7 @@ cat newfile | grep -i "hello"
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+![Screenshot from 2025-03-10 18-49-16](https://github.com/user-attachments/assets/bd864fb9-6d58-4ae1-98e8-18fcf4602c0e)
 
 
 
