@@ -1024,7 +1024,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 
- 
+ ![316738281-0765d54a-32b7-4dab-aee7-73ba559f2404](https://github.com/user-attachments/assets/4f831b63-e146-4189-ad55-50f684151700)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1035,10 +1036,12 @@ echo "Hello $name, welcome to my program. "
  ```
  
 $ chmod 755 exread.sh 
- 
+
+
 $ ./exread.sh 
 ## OUTPUT
 
+![316740804-7ee0fda7-4aee-48b9-b66c-db62420186d5](https://github.com/user-attachments/assets/797dc51e-2151-4fe1-9dfc-11a9343a1c59)
 
 
  cat exread1.sh
@@ -1074,6 +1077,7 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+![316740804-7ee0fda7-4aee-48b9-b66c-db62420186d5](https://github.com/user-attachments/assets/a8050b22-74eb-49f4-b711-cb04a5919f19)
 
  
  ./funcex.sh 1 2
@@ -1091,7 +1095,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![316738750-fbf0ccbc-30fd-4ba9-8017-efa27261d721](https://github.com/user-attachments/assets/1feb8e77-ea7b-4ea9-83e6-6fceef9ab738)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1108,8 +1113,9 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+![316738765-b564ab36-5649-4d4f-b1e4-a269609ab7d7](https://github.com/user-attachments/assets/ea2c0b82-aeea-43da-8f47-0506db30ef4a) 
 cat argshift.sh
+
 ```bash
 #!/bin/bash 
 set -x 
@@ -1152,8 +1158,12 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
-cat > palindrome.sh
+ ![316738796-d0fd2ccc-8439-46b4-b072-8a78cd3503db](https://github.com/user-attachments/assets/27db8e4a-0958-47c0-8f0e-eb572067df58)
+
+
+cat > pal
+in
+drome.sh
 ```bash
 #num=545
 echo "Enter the number"
@@ -1179,6 +1189,7 @@ else
 fi
 ```
 ## OUTPUT 
+![316739033-1daf5b3a-3394-47b0-ac6f-32a86e8c83f0](https://github.com/user-attachments/assets/95eeecb4-7536-4cd2-a146-a50edc857ecb)
 
 
 # RESULT:
